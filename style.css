@@ -19,19 +19,18 @@ a:hover {
 /* Full-Screen Hero Section */
 #hero {
     height: 100vh; /* Full-screen height */
+    width: 100vw; /* Full-screen width */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat top center;
-    background-size: cover; /* Ensure the container is filled */
+    background-size: cover; /* Ensures the container is completely filled */
     text-align: center;
     color: #fff;
     padding: 0 1rem;
+    overflow: hidden; /* Prevents any overflow from the image */
 }
-
-
-
 
 #hero h1 {
     font-size: 3rem;
