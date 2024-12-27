@@ -1,67 +1,68 @@
 /* General Styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
 body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background-color: #0d1b2a; /* Dark blue background */
-    color: #e0e1dd; /* Light text color for contrast */
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    color: #fff;
+    background-color: #1a1a1a; /* Dark background */
 }
 
-/* Header */
-header {
+a {
+    text-decoration: none;
+    color: #84d2f6;
+}
+
+a:hover {
+    color: #f0a500;
+}
+
+/* Full-Screen Hero Section */
+#hero {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://source.unsplash.com/1600x900/?space,stars') no-repeat center center/cover; /* Replace with your image URL */
     text-align: center;
-    background: #1b263b; /* Slightly lighter dark blue */
-    color: #e0e1dd;
-    padding: 2rem 0;
-    border-bottom: 3px solid #415a77; /* Accentuating border */
+    color: #fff;
+    padding: 0 1rem;
 }
 
-header h1 {
+#hero h1 {
+    font-size: 3rem;
     margin: 0;
-    font-size: 2.5rem;
-    font-weight: 600;
 }
 
-header p {
-    margin: 0.5rem 0 0;
-    font-size: 1.2rem;
-    font-weight: 300;
+#hero p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
 }
 
 /* Navigation */
-nav {
-    background: #415a77; /* Complementary dark blue */
-    color: #fff;
-    border-top: 2px solid #778da9; /* Subtle accent */
-}
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-}
-
-nav ul li {
-    margin: 0;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 nav ul li a {
-    color: #e0e1dd;
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    display: block;
-    font-weight: 400;
-    transition: background 0.3s ease, color 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    background: #1b263b; /* Darker hover effect */
-    color: #f5f5f5;
+    border: 2px solid #84d2f6;
+    border-radius: 5px;
+    color: #f0a500;
 }
 
 /* Main Content */
@@ -72,37 +73,47 @@ main {
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background: #2e2e2e;
+    border-radius: 10px;
 }
 
 section h2 {
-    border-bottom: 2px solid #778da9;
+    font-size: 2rem;
+    border-bottom: 2px solid #84d2f6;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    color: #f5f5f5; /* Slightly brighter for headings */
+}
+
+section p, section ul {
+    font-size: 1.2rem;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background: #1b263b;
-    color: #e0e1dd;
+    background: #2e2e2e;
     padding: 1rem 0;
-    border-top: 3px solid #415a77;
-    margin-top: 2rem;
+    border-top: 2px solid #84d2f6;
+    color: #fff;
 }
 
-/* Buttons and Links */
-a {
-    color: #84a9ac;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
 }
 
-a:hover {
-    color: #f5f5f5;
-}
 
 
 
