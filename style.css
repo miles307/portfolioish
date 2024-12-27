@@ -27,7 +27,7 @@ a:hover {
     background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat top center;
     background-size: cover; /* Fills the container while maintaining aspect ratio */
     text-align: center;
-    color: #f5d142; /* Soft yellow for better contrast */
+    color: #cfd8dc; /* Soft gray-blue for text */
     padding: 0 1rem;
     margin: 0;
     overflow: hidden;
@@ -36,17 +36,18 @@ a:hover {
 #hero h1 {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #f5d142; /* Soft yellow */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+    color: #90caf9; /* Light blue for better contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adds shadow for readability */
     margin: 0;
 }
 
 #hero p {
     font-size: 1.5rem;
-    color: #f0e68c; /* Lighter yellow for contrast with h1 */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+    color: #b0bec5; /* Soft gray for contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Shadow for better readability */
     margin: 0.5rem 0 0;
 }
+
 
 
 /* Navigation */
