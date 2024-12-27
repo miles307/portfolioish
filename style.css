@@ -18,16 +18,18 @@ a:hover {
 
 /* Full-Screen Hero Section */
 #hero {
-    height: 100vh; /* Full screen height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat center center/cover; /* Replace with your image URL */
+    background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat center center/cover;
+    background-position: top center; /* Aligns the top of the image */
     text-align: center;
     color: #fff;
     padding: 0 1rem;
 }
+
 
 #hero h1 {
     font-size: 3rem;
