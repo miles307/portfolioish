@@ -24,7 +24,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat center center/cover;
-    background-position: bottom center; /* Aligns the top of the image */
+    background-position: cover; /* Aligns the top of the image */
     text-align: center;
     color: #fff;
     padding: 0 1rem;
