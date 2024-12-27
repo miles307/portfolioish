@@ -1,35 +1,41 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: Impact, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #0d1b2a; /* Dark blue background */
+    color: #e0e1dd; /* Light text color for contrast */
 }
 
 /* Header */
 header {
     text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background: #1b263b; /* Slightly lighter dark blue */
+    color: #e0e1dd;
+    padding: 2rem 0;
+    border-bottom: 3px solid #415a77; /* Accentuating border */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    font-weight: 600;
 }
 
 header p {
     margin: 0.5rem 0 0;
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 /* Navigation */
 nav {
-    background: #444;
+    background: #415a77; /* Complementary dark blue */
     color: #fff;
+    border-top: 2px solid #778da9; /* Subtle accent */
 }
 
 nav ul {
@@ -45,19 +51,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0e1dd;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.5rem;
     display: block;
+    font-weight: 400;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: #555;
+    background: #1b263b; /* Darker hover effect */
+    color: #f5f5f5;
 }
 
 /* Main Content */
 main {
-    padding: 1rem;
+    padding: 2rem 1rem;
     max-width: 800px;
     margin: auto;
 }
@@ -67,18 +76,33 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #778da9;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    color: #f5f5f5; /* Slightly brighter for headings */
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background: #333;
-    color: #fff;
+    background: #1b263b;
+    color: #e0e1dd;
     padding: 1rem 0;
+    border-top: 3px solid #415a77;
     margin-top: 2rem;
 }
+
+/* Buttons and Links */
+a {
+    color: #84a9ac;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f5f5f5;
+}
+
 
 
