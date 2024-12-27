@@ -25,12 +25,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     background: url('http://upload.wikimedia.org/wikipedia/commons/d/d0/Barns_grand_tetons.jpg') no-repeat top center;
-    background-size: cover; /* Ensures the container is completely filled */
+    background-size: cover; /* Fills the container while maintaining aspect ratio */
     text-align: center;
     color: #fff;
     padding: 0 1rem;
-    overflow: hidden; /* Prevents any overflow from the image */
+    margin: 0;
+    overflow: hidden;
 }
+
 
 #hero h1 {
     font-size: 3rem;
