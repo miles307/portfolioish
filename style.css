@@ -34,16 +34,18 @@ a:hover {
 }
 
 #hero h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3.5rem;
     font-weight: bold;
-    color: #90caf9; /* Light blue for better contrast */
+    color: #ff6403; /* Light blue for better contrast */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adds shadow for readability */
     margin: 0;
 }
 
 #hero p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
-    color: #b0bec5; /* Soft gray for contrast */
+    color: #fcfcfc; /* Soft gray for contrast */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Shadow for better readability */
     margin: 0.5rem 0 0;
 }
@@ -71,9 +73,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border: 2px solid #84d2f6;
+    border: 2px solid #ff6403;
     border-radius: 5px;
-    color: #f0a500;
+    color: #ff6403;
 }
 
 /* Main Content */
@@ -87,12 +89,13 @@ section {
     margin-bottom: 3rem;
     padding: 1rem;
     background: #2e2e2e;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 section h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
-    border-bottom: 2px solid #84d2f6;
+    border-bottom: 2px solid #ff6403;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -103,10 +106,11 @@ section p, section ul {
 
 /* Footer */
 footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background: #2e2e2e;
     padding: 1rem 0;
-    border-top: 2px solid #84d2f6;
+    border-top: 2px solid #ff6403;
     color: #fff;
 }
 
